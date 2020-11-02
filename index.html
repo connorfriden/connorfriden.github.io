@@ -1,25 +1,24 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en" dir="ltr">
-  <head>
-<link rel="stylesheet" href="mystyle.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178269583-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<head>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178269583-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-  gtag('config', 'UA-178269583-1');
-</script>
-    <meta charset="utf-8">
+		  gtag('config', 'UA-178269583-1');
+		</script>
+		<meta charset="utf-8">
     <meta name="google-site-verification" content="z70pUHfTBqPPBPFHp43BJVKUVa4--xt547hkReF99rs" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-    <title>Connor Friden Portfolio</title>
+    <title>Home Page</title>
 
     <meta name="description" content="Connor Friden's Portfolio Site Home Page">
-    <meta name="keywords" content="portfolio">
+    <meta name="keywords" content="Home">
     <meta name="language" content="EN">
     <meta name="author" content="Connor Friden, Interactive Designer">
 
@@ -28,41 +27,190 @@
     <meta name="geo.position" content="33.749099;-84.390185" />
     <meta name="ICBM" content="33.749099, -84.390185" />
 
+	</head>
+	<body class="is-preload">
 
-  </head>
-  <body>
-    <div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="about.html">About</a>
-  <a href="project1.html">Project 1</a>
-  <a href="project2.html">Project 2</a>
-  <a href="project3.html">Project 3</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-<!--
-<div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
-</div>
--->
-    <center>
-    <h1>Hello World</h1>
-    <h2>This is My Portfolio Site</h2>
-    <img src="Images/goodman2.gif" alt="White Goodman" width="40%" height="40%">
-    <p>Thanks for coming by!</p>
-    </center>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-  </body>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Connor Friden</h1>
+						<p>UI/UX Designer</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="projects.html">Projects</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/cfriden/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+
+									<h2><a href="#">This is My Portfolio Site</a></h2>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="Profile Picture"  width="10%" height="10%"/></a>
+									<p>I am an Interaction Designer base in Atlanta, Ga.<br />
+									My attraction to UI/UX Design is based on the fact that
+									it combines many of my interests into a single major.
+									Video games have always been my primary interest, but I am also
+									passionate about many other forms of design.<br />
+									</p>
+								</header>
+								<!--<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">Check it Out</a></li>
+								</ul> -->
+							</article>
+
+						<!-- Posts -->
+							<!--<section class="posts">
+								<article>
+									<header>
+
+										<h2><a href="#">Sed magna<br />
+										ipsum faucibus</a></h2>
+									</header>
+
+									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante
+										 ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
+										  dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+
+										<h2><a href="#">Primis eget<br />
+										imperdiet lorem</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante
+										 ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
+										  dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+
+										<h2><a href="#">Ante mattis<br />
+										interdum dolor</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante
+										 ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
+										  dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+
+										<h2><a href="#">Tempus sed<br />
+										nulla imperdiet</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante
+										 ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
+										  dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article> -->
+								<!--<article>
+									<header>
+
+										<h2><a href="#">Odio magna<br />
+										sed consectetur</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante
+										 ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
+										  dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article> -->
+								<!--<article>
+									<header>
+
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante
+										 ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
+										  dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article> -->
+							</section>
+
+						<!-- Footer -->
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+
+						<section class="split contact">
+							<section class="alt">
+
+
+								<h3>Email</h3>
+								<p><a href="#">cb.friden@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div> -->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
