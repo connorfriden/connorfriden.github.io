@@ -2542,7 +2542,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
-			width: 30%;
+			width: 100%;
 		}
 
 			.image.fit:first-child {
@@ -2564,7 +2564,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 30%;
+				width: 100%;
 
 			}
 
