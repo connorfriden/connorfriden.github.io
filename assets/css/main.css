@@ -2424,7 +2424,7 @@ input, select, textarea {
 			color: #212931;
 		}
 
-	.select-wrapper:before {
+	.select-contentwrapper:before {
 		color: #eeeeee;
 	}
 
@@ -2924,7 +2924,7 @@ input, select, textarea {
 
 /* Table */
 
-	.table-wrapper {
+	.table-contentwrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
@@ -3022,9 +3022,9 @@ input, select, textarea {
 	}
 
 
-/* Wrapper */
+/* contentwrapper */
 
-	#wrapper {
+	#contentwrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
@@ -3034,7 +3034,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#wrapper > .bg {
+		#contentwrapper > .bg {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -3049,13 +3049,13 @@ input, select, textarea {
 			z-index: -1;
 		}
 
-			#wrapper > .bg.fixed {
+			#contentwrapper > .bg.fixed {
 				position: fixed;
 				width: 100vw;
 				height: 100vh;
 			}
 
-		#wrapper.fade-in:before {
+		#contentwrapper.fade-in:before {
 			pointer-events: none;
 			-moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
@@ -3076,13 +3076,13 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		body.is-preload #wrapper.fade-in:before {
+		body.is-preload #contentwrapper.fade-in:before {
 			opacity: 1;
 		}
 
 		@media screen and (orientation: portrait) {
 
-			#wrapper > .bg {
+			#contentwrapper > .bg {
 				background-size: auto,								auto,														auto 175%;
 			}
 
@@ -3391,7 +3391,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: 14rem;
+			/*	height: 14rem; */
 				padding-bottom: 4rem;
 			}
 
@@ -3585,27 +3585,27 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		#main > .post {
+		#main > .content {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
-			#main > .post header.major > .date {
+			#main > .content header.major > .date {
 				margin-top: -2rem;
 			}
 
-			#main > .post header.major > h1, #main > .post header.major h2 {
+			#main > .content header.major > h1, #main > .content header.major h2 {
 				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
 
-			#main > .post.featured {
+			#main > .content.featured {
 				text-align: center;
 			}
 
 			@media screen and (max-width: 1280px) {
 
-				#main > .post {
+				#main > .content {
 					padding: 6rem 4rem 4rem 4rem ;
 				}
 
@@ -3613,16 +3613,16 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 
-				#main > .post {
+				#main > .content {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
 
-					#main > .post header.major > .date {
+					#main > .content header.major > .date {
 						margin-top: -1rem;
 						margin-bottom: 2rem;
 					}
 
-					#main > .post header.major > h1, #main > .post header.major h2 {
+					#main > .content header.major > h1, #main > .content header.major h2 {
 						font-size: 2.5rem;
 						line-height: 1.2;
 						margin: 0 0 1.5rem 0;
@@ -3630,7 +3630,7 @@ input, select, textarea {
 
 			}
 
-		#main > .posts {
+		#main > .projects {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3648,7 +3648,7 @@ input, select, textarea {
 			padding: 0;
 		}
 
-			#main > .posts > * {
+			#main > .projects > * {
 				-moz-flex-shrink: 1;
 				-webkit-flex-shrink: 1;
 				-ms-flex-shrink: 1;
@@ -3659,16 +3659,16 @@ input, select, textarea {
 				flex-grow: 0;
 			}
 
-			#main > .posts > * {
+			#main > .projects > * {
 				width: 50%;
 			}
 
-			#main > .posts > * {
+			#main > .projects > * {
 				padding: 4rem;
 				width: 50%;
 			}
 
-			#main > .posts > article {
+			#main > .projects > article {
 				border-color: #eeeeee;
 				border-left-width: 2px;
 				border-style: solid;
@@ -3676,25 +3676,25 @@ input, select, textarea {
 				text-align: center;
 			}
 
-				#main > .posts > article > :last-child {
+				#main > .projects > article > :last-child {
 					margin-bottom: 0;
 				}
 
-				#main > .posts > article:nth-child(2n - 1) {
+				#main > .projects > article:nth-child(2n - 1) {
 					border-left-width: 0;
 				}
 
-				#main > .posts > article:nth-child(-n + 2) {
+				#main > .projects > article:nth-child(-n + 2) {
 					border-top-width: 0;
 				}
 
 			@media screen and (max-width: 980px) {
 
-				#main > .posts > * {
+				#main > .projects > * {
 					width: 50%;
 				}
 
-				#main > .posts > * {
+				#main > .projects > * {
 					padding: 2.5rem;
 					width: 50%;
 				}
@@ -3703,32 +3703,32 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 
-				#main > .posts > * {
+				#main > .projects > * {
 					width: 100%;
 				}
 
-				#main > .posts > * {
+				#main > .projects > * {
 					padding: 2rem;
 					width: 100%;
 				}
 
-				#main > .posts > article:nth-child(2n - 1) {
+				#main > .projects > article:nth-child(2n - 1) {
 					border-left-width: 2px;
 				}
 
-				#main > .posts > article:nth-child(-n + 2) {
+				#main > .projects > article:nth-child(-n + 2) {
 					border-top-width: 2px;
 				}
 
-				#main > .posts > article:nth-child(n) {
+				#main > .projects > article:nth-child(n) {
 					border-left-width: 0;
 				}
 
-				#main > .posts > article:nth-child(-n + 1) {
+				#main > .projects > article:nth-child(-n + 1) {
 					border-top-width: 0;
 				}
 
-				#main > .posts > article .image {
+				#main > .projects > article .image {
 					max-width: 25rem;
 					margin-left: auto;
 					margin-right: auto;
@@ -3875,7 +3875,7 @@ input, select, textarea {
 				color: #717981;
 			}
 
-		#footer .select-wrapper:before {
+		#footer .select-contentwrapper:before {
 			color: #e2e2e2;
 		}
 
@@ -4039,7 +4039,7 @@ input, select, textarea {
 						padding: 3rem 4rem 3rem 4rem ;
 					}
 
-				#footer > section.split.contact > section {
+				#footer > section.split.contactinfo > section {
 					display: -moz-flex;
 					display: -webkit-flex;
 					display: -ms-flex;
@@ -4051,11 +4051,11 @@ input, select, textarea {
 					padding: 3.15rem 4rem;
 				}
 
-					#footer > section.split.contact > section > * {
+					#footer > section.split.contactinfo > section > * {
 						margin-bottom: 0;
 					}
 
-					#footer > section.split.contact > section > :first-child {
+					#footer > section.split.contactinfo > section > :first-child {
 						-moz-flex-shrink: 0;
 						-webkit-flex-shrink: 0;
 						-ms-flex-shrink: 0;
@@ -4067,7 +4067,7 @@ input, select, textarea {
 						width: 6rem;
 					}
 
-					#footer > section.split.contact > section > :last-child {
+					#footer > section.split.contactinfo > section > :last-child {
 						-moz-flex-shrink: 1;
 						-webkit-flex-shrink: 1;
 						-ms-flex-shrink: 1;
@@ -4078,22 +4078,22 @@ input, select, textarea {
 						flex-grow: 1;
 					}
 
-					#footer > section.split.contact > section:first-child {
+					#footer > section.split.contactinfo > section:first-child {
 						padding: 4rem 4rem 3rem 4rem;
 					}
 
-					#footer > section.split.contact > section:last-child {
+					#footer > section.split.contactinfo > section:last-child {
 						padding: 3rem 4rem 4rem 4rem;
 					}
 
-					#footer > section.split.contact > section.alt {
+					#footer > section.split.contactinfo > section.alt {
 						-moz-align-items: -moz-flex-start;
 						-webkit-align-items: -webkit-flex-start;
 						-ms-align-items: -ms-flex-start;
 						align-items: flex-start;
 					}
 
-						#footer > section.split.contact > section.alt > :last-child {
+						#footer > section.split.contactinfo > section.alt > :last-child {
 							margin-top: -0.325rem;
 						}
 
@@ -4129,15 +4129,15 @@ input, select, textarea {
 							padding: 4rem 4rem 2rem 4rem ;
 						}
 
-					#footer > section.split.contact > section {
+					#footer > section.split.contactinfo > section {
 						padding: 4rem;
 					}
 
-						#footer > section.split.contact > section:first-child {
+						#footer > section.split.contactinfo > section:first-child {
 							padding: 4rem;
 						}
 
-						#footer > section.split.contact > section:last-child {
+						#footer > section.split.contactinfo > section:last-child {
 							padding: 4rem;
 						}
 
@@ -4167,15 +4167,15 @@ input, select, textarea {
 						padding: 2rem 2rem 0.1rem 2rem ;
 					}
 
-				#footer > section.split.contact > section {
+				#footer > section.split.contactinfo > section {
 					padding: 2rem;
 				}
 
-					#footer > section.split.contact > section:first-child {
+					#footer > section.split.contactinfo > section:first-child {
 						padding: 2rem;
 					}
 
-					#footer > section.split.contact > section:last-child {
+					#footer > section.split.contactinfo > section:last-child {
 						padding: 2rem;
 					}
 
@@ -4380,7 +4380,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		body.is-navPanel-visible #wrapper {
+		body.is-navPanel-visible #contentwrapper {
 			opacity: 0.5;
 		}
 
