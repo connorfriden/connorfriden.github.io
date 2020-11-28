@@ -2424,7 +2424,7 @@ input, select, textarea {
 			color: #212931;
 		}
 
-	.select-contentwrapper:before {
+	.select-wrapper:before {
 		color: #eeeeee;
 	}
 
@@ -2924,7 +2924,7 @@ input, select, textarea {
 
 /* Table */
 
-	.table-contentwrapper {
+	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
@@ -3022,9 +3022,9 @@ input, select, textarea {
 	}
 
 
-/* contentwrapper */
+/* Wrapper */
 
-	#contentwrapper {
+	#wrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
@@ -3034,7 +3034,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#contentwrapper > .bg {
+		#wrapper > .bg {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -3049,13 +3049,13 @@ input, select, textarea {
 			z-index: -1;
 		}
 
-			#contentwrapper > .bg.fixed {
+			#wrapper > .bg.fixed {
 				position: fixed;
 				width: 100vw;
 				height: 100vh;
 			}
 
-		#contentwrapper.fade-in:before {
+		#wrapper.fade-in:before {
 			pointer-events: none;
 			-moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
@@ -3076,13 +3076,13 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		body.is-preload #contentwrapper.fade-in:before {
+		body.is-preload #wrapper.fade-in:before {
 			opacity: 1;
 		}
 
 		@media screen and (orientation: portrait) {
 
-			#contentwrapper > .bg {
+			#wrapper > .bg {
 				background-size: auto,								auto,														auto 175%;
 			}
 
@@ -3875,7 +3875,7 @@ input, select, textarea {
 				color: #717981;
 			}
 
-		#footer .select-contentwrapper:before {
+		#footer .select-wrapper:before {
 			color: #e2e2e2;
 		}
 
@@ -4380,7 +4380,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		body.is-navPanel-visible #contentwrapper {
+		body.is-navPanel-visible #wrapper {
 			opacity: 0.5;
 		}
 
