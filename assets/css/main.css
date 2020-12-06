@@ -172,6 +172,8 @@ input, select, textarea {
 	p {
 		text-align: justify;
 		margin: 0 0 2rem 0;
+		page-break-after: auto;
+		page-break-before: auto;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2876,7 +2878,8 @@ input, select, textarea {
 			}
 
 			header.major > p {
-				margin-top: 0;
+				margin-top: 5%;
+				margin-bottom: 5%;
 				text-align: center;
 			}
 
