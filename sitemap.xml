@@ -9,7 +9,43 @@
 
 <url>
   <loc>https://connorfriden.github.io/</loc>
-  <lastmod>2020-09-27T19:51:47+00:00</lastmod>
+  <lastmod>2020-12-07T20:13:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://connorfriden.github.io/index.html</loc>
+  <lastmod>2020-12-07T20:13:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://connorfriden.github.io/about.html</loc>
+  <lastmod>2020-12-07T20:13:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://connorfriden.github.io/projects.html</loc>
+  <lastmod>2020-12-07T20:13:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://connorfriden.github.io/project1.html</loc>
+  <lastmod>2020-12-07T20:13:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connorfriden.github.io/project2.html</loc>
+  <lastmod>2020-12-07T20:13:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connorfriden.github.io/project3.html</loc>
+  <lastmod>2020-12-07T20:13:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://connorfriden.github.io/404.html</loc>
+  <lastmod>2020-12-07T20:13:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
