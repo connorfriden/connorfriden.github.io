@@ -2593,12 +2593,12 @@ input, select, textarea {
 			transition: transform 0.2s ease-out;
 		}
 
-		a.image:hover img {
+	/*	a.image:hover img {
 			-moz-transform: scale(1.05);
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
-		}
+		} */
 
 /* Actions */
 
@@ -3589,7 +3589,7 @@ input, select, textarea {
 		}
 
 		#main > .content {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 4rem 4rem 3rem 4rem ;
 		}
 
 			#main > .content header.major > .date {
@@ -3646,7 +3646,7 @@ input, select, textarea {
 			-webkit-align-items: -webkit-stretch;
 			-ms-align-items: -ms-stretch;
 			align-items: stretch;
-			text-align: center;
+			text-align: left;
 			width: 100%;
 			padding: 0;
 		}
@@ -3668,7 +3668,7 @@ input, select, textarea {
 
 			#main > .projects > * {
 				padding: 4rem;
-				width: 50%;
+				width: 48%;
 			}
 
 			#main > .projects > article {
@@ -3676,7 +3676,7 @@ input, select, textarea {
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
-				text-align: center;
+				text-align: left;
 			}
 
 				#main > .projects > article > :last-child {
