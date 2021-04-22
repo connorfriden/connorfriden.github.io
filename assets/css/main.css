@@ -170,7 +170,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 		margin: 0 0 2rem 0;
 		page-break-after: auto;
 		page-break-before: auto;
@@ -2828,7 +2828,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header {
