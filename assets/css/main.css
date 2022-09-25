@@ -2836,7 +2836,7 @@ input, select, textarea {
 	}
 
 		header > .date {
-			display: block;
+			display: inline;
 			font-size: 0.8rem;
 			height: 1;
 			margin: 0 0 1rem 0;
@@ -3649,6 +3649,7 @@ input, select, textarea {
 			text-align: left;
 			width: 100%;
 			padding: 0;
+			justify-content: center;
 		}
 
 			#main > .projects > * {
@@ -3667,7 +3668,7 @@ input, select, textarea {
 			}
 
 			#main > .projects > * {
-				padding: 4rem;
+				padding: 1.5rem;
 				width: 48%;
 			}
 
